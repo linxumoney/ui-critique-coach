@@ -1,0 +1,7 @@
+interface:
+  display_name: "UI 评审教练"
+  short_description: "从用户任务到可访问性，输出按严重度排序的修改建议"
+  default_prompt: "使用 $ui-critique-coach 评审这个界面，先检查任务阻断和状态，再给视觉优化建议。"
+
+policy:
+  allow_implicit_invocation: true
